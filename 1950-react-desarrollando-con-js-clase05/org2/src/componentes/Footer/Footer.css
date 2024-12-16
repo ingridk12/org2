@@ -13,7 +13,9 @@
 }
 
 .redes img{
+    width: 50px;
     padding: 0px 15px;
+    background-color: transparent;
 }
 
 
