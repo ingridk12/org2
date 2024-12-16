@@ -10,8 +10,8 @@ function App() {
   const [mostrarFormulario, actualizarMostrar] = useState(false)
   const [colaboradores, actualizarColaboradores] = useState([{
     equipo: "Front End",
-    foto: "https://github.com/harlandlohora.png",
-    nombre: "Harland Lohora",
+    foto: "https://github.com/ingridk12.png",
+    nombre: "Ingrid Katherine Vega Ordoñez",
     puesto: "Instructor"
   }])
   //Ternario --> condicion ? seMuestra : noSeMuestra
