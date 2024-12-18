@@ -18,6 +18,7 @@ const Equipo = (props) => {
             <section className="equipo" style={obj}>
                 <input
                 type="color"
+                className="input-color"
                 
                 
                 
