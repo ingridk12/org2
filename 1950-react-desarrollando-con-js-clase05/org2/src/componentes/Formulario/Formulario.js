@@ -58,6 +58,23 @@ const Formulario = (props) => {
                 Crear
             </Boton>
         </form>
+        <form onSubmit={manejarEnvio}>
+            <h2>Rellena el formulario para crear el equipo.</h2>
+            <CampoTexto
+                titulo="Nombre"
+                placeholder="Ingresar nombre"
+                required
+                valor={nombre}
+                actualizarValor={actualizarNombre}
+            />
+            <CampoTexto
+                titulo="Puesto"
+                placeholder="Ingresar puesto"
+                required
+                valor={puesto}
+                actualizarValor={actualizarPuesto}
+            />
+            </form>
     </section>
 }
 
