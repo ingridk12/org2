@@ -1,12 +1,12 @@
 import "./Equipo.css"
 import Colaborador from "../Colaborador"
-
+import hexToRgba from 'hex-to-rgba';
 const Equipo = (props) => {
     //Destructuracion
     const { colorPrimario, colorSecundario, titulo } = props.datos
     const { colaboradores, eliminarColaborador, actualizarColor } = props
     const obj = {
-        backgroundColor: colorPrimario
+        backgroundColor:hexToRgba(colorPrimario, 0.6) 
     }
    
 
